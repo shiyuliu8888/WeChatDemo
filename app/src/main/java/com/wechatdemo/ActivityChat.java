@@ -66,10 +66,10 @@ public class ActivityChat extends Activity implements View.OnClickListener{
             entity.setDate(dataArray[i]);
             if (i % 2 == 0)
             {
-                entity.setName("小黑");
+                entity.setName("泡芙");
                 entity.setMsgType(true);
             }else{
-                entity.setName("人马");
+                entity.setName("独角兽");
                 entity.setMsgType(false);
             }
 
