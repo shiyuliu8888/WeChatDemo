@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wechatdemo">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+        <activity
+            android:name=".ActivityAppStart"
+            android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ActivityWelcome" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name=".ActivityLogin" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name=".ActivityMainWeChat" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name=".ActivityLoading" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name=".AcitvityWhatsnew" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name=".ActivityWhatsnewDoor" android:theme="@android:style/Theme.NoTitleBar"/>
+        <!--<activity android:name=".ActivityAppStart"/>-->
+        <activity android:name=".ActivityExit" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name=".ActivityMainTopRightDialog" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name=".ActivityExitDialog" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name=".ActivityChat" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name=".ActivityShake" android:theme="@android:style/Theme.NoTitleBar"/>
+
+        <activity android:name=".ActivityInfoHead" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name=".ActivityInfoPaofu" android:theme="@android:style/Theme.NoTitleBar"/>
+
+
+    </application>
+</manifest>
