@@ -69,7 +69,7 @@ public class ActivityChat extends Activity implements View.OnClickListener{
                 entity.setName("泡芙");
                 entity.setMsgType(true);
             }else{
-                entity.setName("独角兽");
+                entity.setName("可爱的");
                 entity.setMsgType(false);
             }
 
