@@ -7,14 +7,3 @@
 /build
 /captures
 .externalNativeBuild
-*.apk
-*.ap_
-*.dex
-*.class
-bin/
-gen/
-/*/build/
-local.properties
-proguard/
-*.log
-.settings/
